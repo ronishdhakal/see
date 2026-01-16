@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,8 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "SEE Result 2082 - College Info Nepal",
-  description: "Check SEE Result 2082 Online with College Info Nepal for FREE. Your SEE GPA is just a click",
-    icons: {
+  description:
+    "Check SEE Result 2082 Online with College Info Nepal for FREE. Your SEE GPA is just a click",
+  icons: {
     icon: "/assets/icon.png",
   },
 };
@@ -22,9 +24,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-3H8YGYXHPP"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-3H8YGYXHPP');
+          `}
+        </Script>
+
         {children}
       </body>
     </html>
