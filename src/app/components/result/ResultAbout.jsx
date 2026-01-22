@@ -8,10 +8,10 @@ export default function ResultAbout() {
 
           <p className="text-lg text-gray-700 leading-relaxed max-w-3xl">
             The Secondary Education Examination (SEE) is a Class 10 board exam conducted by the National Examinations
-            Board (NEB). This year, the SEE exam was conducted from Chaitra 7, 2082 to Chaitra 19, 2082 (varies by
+            Board (NEB). This year, the SEE exam was conducted from Chaitra 19, 2082 to Chaitra 29, 2082 (varies by
             faculty).
             <br />
-            <br />A total of 514,071 students appeared for the SEE Exam 2082, of which 421,585 were regular students and
+            <br />Over 5 Lakhs students appeared for the SEE Exam 2082, of which 4 Lakhs Plus were regular students and
             the remaining were supplementary students.
           </p>
         </div>
