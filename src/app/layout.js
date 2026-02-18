@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "SEE Result 2082 - College Info Nepal",
+  title: "SEE Result 2082/2083 - College Info Nepal",
   description:
-    "Check SEE Result 2082 Online with College Info Nepal for FREE. Your SEE GPA is just a click",
+    "Check SEE Result 2082/2083 Online with College Info Nepal for FREE. Your SEE GPA is just a click",
   icons: {
     icon: "/assets/icon.png",
   },
