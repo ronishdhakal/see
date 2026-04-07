@@ -4,7 +4,10 @@ export default function ResultHeader() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Content - Centered */}
         <div className="text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-3 sm:mb-4">SEE RESULT 2082</h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-3 sm:mb-4">
+            SEE RESULT 2082
+          </h1>
+
           <p className="text-base sm:text-lg text-gray-600 mb-8 sm:mb-10 md:mb-12">
             Check your examination results securely and instantly
           </p>
@@ -27,7 +30,49 @@ export default function ResultHeader() {
           </div>
 
           {/* Result Not Published Message */}
-          <p className="mt-6 sm:mt-8 text-sm font-medium text-red-600">Result not published yet</p>
+          <p className="mt-6 sm:mt-8 text-sm font-medium text-red-600">
+            Result not published yet
+          </p>
+
+          {/* New Info Section */}
+          <div className="mt-4 sm:mt-6 text-sm text-gray-700">
+            <p className="mb-2">
+              SEE Result is likely to be published in the last week of Baisakh 2083.
+            </p>
+
+            <p className="mb-3 font-medium">
+              Follow us on social media for regular updates:
+            </p>
+
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-blue-600">
+              <a
+                href="https://www.facebook.com/collegeinfonepal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                Facebook
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@collegeinfonepal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                TikTok
+              </a>
+
+              <a
+                href="https://www.instagram.com/collegeinfonp/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                Instagram
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
