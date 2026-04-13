@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-3H8YGYXHPP"
@@ -38,6 +39,14 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-3H8YGYXHPP');
           `}
         </Script>
+
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2331292940175826"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
 
         {children}
       </body>
