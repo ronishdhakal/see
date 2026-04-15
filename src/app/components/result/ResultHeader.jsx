@@ -2,11 +2,13 @@ import Image from "next/image";
 import Script from "next/script";
 
 export default function ResultHeader() {
+  const whatsappMessage = encodeURIComponent("I have note of ");
+  const whatsappLink = `https://wa.me/9745450062?text=${whatsappMessage}`;
+
   return (
     <section className="w-full bg-white pt-2 pb-10 sm:pt-3 sm:pb-12 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-
           {/* Ad Image */}
           <div className="mb-4 flex justify-center">
             <a
@@ -23,6 +25,26 @@ export default function ResultHeader() {
                 priority
               />
             </a>
+          </div>
+
+          {/* Notes Contribution Section */}
+          <div className="mb-6 flex justify-center">
+            <div className="w-full max-w-2xl rounded-xl border border-blue-100 bg-blue-50 px-4 py-4 sm:px-6 sm:py-5">
+              <p className="text-sm sm:text-base font-semibold text-gray-900">
+                Has Proper Class 8, Class 9 or Class 10 Notes?
+              </p>
+              <p className="mt-1 text-sm sm:text-base text-gray-700">
+                Contribute and Get Rewarded
+              </p>
+              <a
+                href={whatsappLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex items-center justify-center rounded-lg bg-green-600 px-5 py-2.5 text-sm sm:text-base font-semibold text-white hover:bg-green-700 transition"
+              >
+                Apply Now
+              </a>
+            </div>
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-3 sm:mb-4">
