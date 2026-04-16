@@ -28,7 +28,7 @@ export default function ResultHeader() {
           </div>
 
           {/* Notes Contribution Section */}
-          <div className="mb-6 flex justify-center">
+          {/* <div className="mb-6 flex justify-center">
             <div className="w-full max-w-2xl rounded-xl border border-blue-100 bg-blue-50 px-4 py-4 sm:px-6 sm:py-5">
               <p className="text-sm sm:text-base font-semibold text-gray-900">
                 Has Proper Class 8, Class 9 or Class 10 Notes?
@@ -45,7 +45,7 @@ export default function ResultHeader() {
                 Apply Now
               </a>
             </div>
-          </div>
+          </div> */}
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-3 sm:mb-4">
             SEE RESULT 2082
