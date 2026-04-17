@@ -9,6 +9,12 @@ import AfterSeeResult from "@/app/components/result/AfterSeeResult"
 import ResultFAQs from "@/app/components/result/ResultFAQs"
 import GradingSystemTable from "@/app/components/result/GradingSystemTable"
 
+export const metadata = {
+  verification: {
+    google: "In_u6RGEpUbj3PhoaLjXNsloEjIUZ2cXTcYqfLi_iYU",
+  },
+}
+
 export default function Home() {
   return (
     <>
