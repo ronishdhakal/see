@@ -58,7 +58,7 @@ export default function Footer() {
             <h4 className="text-base font-semibold mb-4">Support</h4>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>Email: info@collegeinfonepal.com</li>
-              <li>Phone: +977-9745450062</li>
+              {/* <li>Phone: +977-9745450062</li> */}
               <li>Location: Kathmandu, Nepal</li>
             </ul>
           </div>

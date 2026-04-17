@@ -1,15 +1,10 @@
 import Image from "next/image";
-import Script from "next/script";
 
 export default function ResultHeader() {
-  const whatsappMessage = encodeURIComponent("I have note of ");
-  const whatsappLink = `https://wa.me/9745450062?text=${whatsappMessage}`;
-
   return (
     <section className="w-full bg-white pt-2 pb-10 sm:pt-3 sm:pb-12 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          {/* Ad Image */}
           <div className="mb-4 flex justify-center">
             <a
               href="https://www.nebexam.com/"
@@ -27,56 +22,58 @@ export default function ResultHeader() {
             </a>
           </div>
 
-          {/* Notes Contribution Section */}
-          {/* <div className="mb-6 flex justify-center">
-            <div className="w-full max-w-2xl rounded-xl border border-blue-100 bg-blue-50 px-4 py-4 sm:px-6 sm:py-5">
-              <p className="text-sm sm:text-base font-semibold text-gray-900">
-                Has Proper Class 8, Class 9 or Class 10 Notes?
-              </p>
-              <p className="mt-1 text-sm sm:text-base text-gray-700">
-                Contribute and Get Rewarded
-              </p>
-              <a
-                href={whatsappLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-3 inline-flex items-center justify-center rounded-lg bg-green-600 px-5 py-2.5 text-sm sm:text-base font-semibold text-white hover:bg-green-700 transition"
-              >
-                Apply Now
-              </a>
-            </div>
-          </div> */}
-
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-3 sm:mb-4">
             SEE RESULT 2082
           </h1>
 
-          <p className="text-base sm:text-lg text-gray-600 mb-8 sm:mb-10 md:mb-12">
+          <p className="text-base sm:text-lg text-gray-600 mb-6 sm:mb-8">
             Check your examination results securely and instantly
           </p>
+
+          <div className="max-w-2xl mx-auto mb-4 rounded-lg bg-blue-600 px-4 py-3 text-white text-sm sm:text-base font-medium">
+            Result not published yet. Follow our Facebook page to get the update first.
+          </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-2xl mx-auto">
             <input
               type="text"
               disabled
               placeholder="eg: 01234567A"
-              className="w-full px-4 sm:px-5 py-3 rounded-lg border border-gray-300 bg-gray-50 text-gray-700 outline-none placeholder-gray-500 disabled:cursor-not-allowed disabled:opacity-60 text-sm sm:text-base"
+              className="w-full px-4 sm:px-5 py-3 rounded-lg border border-gray-300 bg-gray-50 text-gray-700 outline-none placeholder-gray-500 disabled:cursor-not-allowed disabled:opacity-70 text-sm sm:text-base"
             />
 
             <button
               disabled
-              className="w-full sm:w-auto px-6 sm:px-8 py-3 rounded-lg bg-blue-600 text-white font-semibold transition disabled:opacity-60 disabled:cursor-not-allowed text-sm sm:text-base whitespace-nowrap"
+              className="w-full sm:w-auto px-6 sm:px-8 py-3 rounded-lg bg-blue-600 text-white font-semibold disabled:opacity-70 disabled:cursor-not-allowed text-sm sm:text-base whitespace-nowrap"
             >
               Submit
             </button>
           </div>
 
-          <p className="mt-6 sm:mt-8 text-sm font-medium text-red-600">
-            Result not published yet
+          <p className="mt-4 text-sm font-medium text-red-600">
+            The result will be published here once officially released.
           </p>
 
-          {/* GPA Calculator Link */}
-          <p className="mt-3 text-sm text-blue-600 font-medium">
+          <div className="max-w-2xl mx-auto mt-6 rounded-2xl border border-blue-200 bg-blue-50 p-5 sm:p-6 shadow-sm">
+            <p className="text-lg sm:text-xl font-bold text-gray-900 mb-2">
+              Follow Facebook for instant SEE result updates
+            </p>
+
+            <p className="text-sm sm:text-base text-gray-700 mb-5">
+              We will post the official SEE result update on our Facebook page as soon as it is published.
+            </p>
+
+            <a
+              href="https://www.facebook.com/collegeinfonepal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-full sm:w-auto px-6 sm:px-8 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition text-sm sm:text-base"
+            >
+              Follow on Facebook
+            </a>
+          </div>
+
+          <p className="mt-4 text-sm text-blue-600 font-medium">
             <a
               href="https://gpa.collegeinfonepal.com/see"
               target="_blank"
@@ -87,73 +84,38 @@ export default function ResultHeader() {
             </a>
           </p>
 
-          {/* Facebook Embed Title */}
-          <p className="mt-6 text-base font-semibold text-gray-900">
-            Follow us on Facebook for Latest SEE Result Updates
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3 text-sm text-blue-600">
+            <a
+              href="https://www.facebook.com/collegeinfonepal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium hover:underline"
+            >
+              Facebook
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@collegeinfonepal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              TikTok
+            </a>
+
+            <a
+              href="https://www.instagram.com/collegeinfonp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Instagram
+            </a>
+          </div>
+
+          <p className="mt-4 text-sm text-gray-700">
+            SEE Result is likely to be published in the last week of Baisakh 2083.
           </p>
-
-          {/* Facebook Embed */}
-          <div className="mt-3 flex justify-center">
-            <div
-              className="iframely-embed w-full max-w-xl"
-              dangerouslySetInnerHTML={{
-                __html: `
-                  <div class="iframely-responsive" style="height: 140px; padding-bottom: 0;">
-                    <a href="https://www.facebook.com/collegeinfonepal/" data-iframely-url="https://iframely.net/ra3xe0uA?theme=dark"></a>
-                  </div>
-                `,
-              }}
-            />
-          </div>
-
-          {/* Iframely Script */}
-          <Script
-            src="https://iframely.net/embed.js"
-            strategy="lazyOnload"
-          />
-
-          <div className="mt-4 sm:mt-6 text-sm text-gray-700">
-            <p className="mb-2">
-              We will post the result update on our Facebook page once it is published.
-            </p>
-
-            <p className="mb-3">
-              Follow us on Facebook to get the update first.
-            </p>
-
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-blue-600">
-              <a
-                href="https://www.facebook.com/collegeinfonepal"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium hover:underline"
-              >
-                Follow us on Facebook
-              </a>
-
-              <a
-                href="https://www.tiktok.com/@collegeinfonepal"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                TikTok
-              </a>
-
-              <a
-                href="https://www.instagram.com/collegeinfonp/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                Instagram
-              </a>
-            </div>
-
-            <p className="mt-4">
-              SEE Result is likely to be published in the last week of Baisakh 2083.
-            </p>
-          </div>
         </div>
       </div>
     </section>

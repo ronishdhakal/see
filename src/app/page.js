@@ -8,6 +8,7 @@ import HowToCheckIVR from "@/app/components/result/HowToCheckIVR"
 import AfterSeeResult from "@/app/components/result/AfterSeeResult"
 import ResultFAQs from "@/app/components/result/ResultFAQs"
 import GradingSystemTable from "@/app/components/result/GradingSystemTable"
+import AlsoCheck from "@/app/components/result/AlsoCheck"
 
 export const metadata = {
   verification: {
@@ -22,6 +23,9 @@ export default function Home() {
 
       <main className="w-full">
         <ResultHeader />
+
+        <AlsoCheck /> {/* ✅ MOVED HERE */}
+
         <ResultAbout />
         <HowToCheckOnline />
         <HowToCheckSMS />
