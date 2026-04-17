@@ -46,7 +46,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://www.collegeinfonepal.com/contact-us" className="hover:text-white transition">
+                {/* <Link href="https://www.collegeinfonepal.com/contact-us" className="hover:text-white transition"> */}
                   Contact
                 </Link>
               </li>
