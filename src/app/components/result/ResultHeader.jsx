@@ -54,6 +54,18 @@ export default function ResultHeader() {
             The result will be published here once officially released.
           </p>
 
+          {/* ✅ UPDATED LINK WITHOUT "Check:" */}
+          <p className="mt-2 text-sm text-blue-600 font-medium">
+            <a
+              href="https://www.abroadadvise.com/featured/best-consultancy-in-nepal"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Top Consultancy in Nepal (10 Best Options for 2026)
+            </a>
+          </p>
+
           <div className="max-w-2xl mx-auto mt-6 rounded-2xl border border-blue-200 bg-blue-50 p-5 sm:p-6 shadow-sm">
             <p className="text-lg sm:text-xl font-bold text-gray-900 mb-2">
               Follow Facebook for instant SEE result updates
