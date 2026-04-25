@@ -5,6 +5,19 @@ export default function ResultHeader() {
     <section className="w-full bg-white pt-2 pb-10 sm:pt-3 sm:pb-12 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
+
+          {/* ✅ SIMPLE TOP LINK */}
+          <p className="mb-3 text-sm sm:text-base text-blue-600 font-medium">
+            <a
+              href="https://see.nebexam.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              SEE Result 2082
+            </a>
+          </p>
+
           <div className="mb-4 flex justify-center">
             <a
               href="https://www.nebexam.com/"
@@ -54,7 +67,6 @@ export default function ResultHeader() {
             The result will be published here once officially released.
           </p>
 
-          {/* ✅ UPDATED LINK WITHOUT "Check:" */}
           <p className="mt-2 text-sm text-blue-600 font-medium">
             <a
               href="https://www.abroadadvise.com/featured/best-consultancy-in-nepal"
