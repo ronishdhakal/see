@@ -18,7 +18,7 @@ export default function ResultHeader() {
             </a>
           </p>
 
-          <div className="mb-4 flex justify-center">
+          {/* <div className="mb-4 flex justify-center">
             <a
               href="https://www.nebexam.com/"
               target="_blank"
@@ -33,7 +33,7 @@ export default function ResultHeader() {
                 priority
               />
             </a>
-          </div>
+          </div> */}
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-3 sm:mb-4">
             SEE RESULT 2082
