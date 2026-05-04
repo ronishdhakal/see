@@ -62,8 +62,8 @@ export default function ResultHeader() {
           </div>
 
           <p className="mt-4 text-sm font-medium text-red-600">
-            As per NEB Officials, SEE Result 2082/83 is likely to be published on Baisakh 28/29. Once published, you can check your SEE Results at see.collegeinfonepal.com.
-          </p>
+  As per NEB Officials, SEE Result 2082/83 is likely to be published on Baisakh 28/29. Once published, you can check your SEE Results at see.collegeinfonepal.com. Prepare for your Class 10, Class 11, Class 12 Board Exam at <a href="https://www.nebexam.com/" target="_blank" rel="noopener noreferrer" className="underline">NEB Exam</a>.
+</p>
 
           <p className="mt-2 text-sm text-blue-600 font-medium">
             <a
