@@ -114,7 +114,7 @@ export default function ResultHeader() {
               className="flex-1 w-full"
             >
               <Image
-                src="/ads/NEB-Exam.jpg"
+                src="/ads/NEB-Exam-Ad.jpg"
                 alt="NEB Exam - Prepare for Board Exam"
                 width={510}
                 height={100}
