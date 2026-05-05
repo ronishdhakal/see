@@ -12,14 +12,15 @@ export default function ResultHeader() {
               href="https://www.collegeinfonepal.com/college/new-summit-college"
               target="_blank"
               rel="noopener noreferrer"
+              className="w-full sm:w-auto"
             >
               <Image
                 src="/ads/New-Summit-College-Ad.jpg"
                 alt="New Summit College"
                 width={510}
                 height={100}
-                className="rounded-md"
-                style={{ width: '510px', height: '100px' }}
+                className="rounded-md w-full h-auto sm:w-[510px] sm:h-[100px] border border-gray-300"
+                style={{ maxWidth: '100%', height: 'auto' }}
               />
             </a>
           </div>
@@ -91,14 +92,15 @@ export default function ResultHeader() {
               href="https://forms.gle/CrQC5siLcQuuVGdJ9"
               target="_blank"
               rel="noopener noreferrer"
+              className="w-full sm:w-auto"
             >
               <Image
                 src="/ads/Scholarship-Exam-Website.jpg"
                 alt="+2 Scholarship Exam"
                 width={510}
                 height={100}
-                className="rounded-md"
-                style={{ width: '510px', height: '100px' }}
+                className="rounded-md w-full h-auto sm:w-[510px] sm:h-[100px] border border-gray-300"
+                style={{ maxWidth: '100%', height: 'auto' }}
               />
             </a>
           </div>
@@ -109,30 +111,30 @@ export default function ResultHeader() {
               href="https://www.nebexam.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1"
+              className="flex-1 w-full"
             >
               <Image
                 src="/ads/NEB-Exam.jpg"
                 alt="NEB Exam - Prepare for Board Exam"
                 width={510}
                 height={100}
-                className="rounded-md"
-                style={{ width: '510px', height: '100px' }}
+                className="rounded-md w-full h-auto sm:w-[510px] sm:h-[100px] border border-gray-300"
+                style={{ maxWidth: '100%', height: 'auto' }}
               />
             </a>
             <a
               href="https://www.abroadadvise.com/featured/best-consultancy-in-nepal"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1"
+              className="flex-1 w-full"
             >
               <Image
                 src="/ads/Abroad-Advise.jpg"
                 alt="Abroad Advise - Study Abroad"
                 width={510}
                 height={100}
-                className="rounded-md"
-                style={{ width: '510px', height: '100px' }}
+                className="rounded-md w-full h-auto sm:w-[510px] sm:h-[100px] border border-gray-300"
+                style={{ maxWidth: '100%', height: 'auto' }}
               />
             </a>
           </div>
