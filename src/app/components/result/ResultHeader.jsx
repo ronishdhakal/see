@@ -7,7 +7,7 @@ export default function ResultHeader() {
         <div className="text-center">
 
           {/* Top Banner Ad - New Summit College */}
-          <div className="flex justify-center mb-4">
+          {/* <div className="flex justify-center mb-4">
             <a
               href="https://www.collegeinfonepal.com/college/new-summit-college"
               target="_blank"
@@ -23,10 +23,10 @@ export default function ResultHeader() {
                 style={{ maxWidth: '100%', height: 'auto' }}
               />
             </a>
-          </div>
+          </div> */}
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 mb-3 sm:mb-4">
-            SEE RESULT <span className="text-blue-500">2082/2083</span>
+            SEE RESULT <span className="text-blue-600">2082/2083</span>
           </h1>
 
           <div className="w-full mb-6 rounded-xl px-6 py-5 text-white shadow-lg border-l-4 border-blue-400" style={{ backgroundColor: '#1ca3fd' }}>
@@ -75,7 +75,7 @@ export default function ResultHeader() {
           
 
           {/* Scholarship Link */}
-          <p className="mt-4 text-sm text-blue-600 font-medium">
+          {/* <p className="mt-4 text-sm text-blue-600 font-medium">
             <a
               href="https://forms.gle/CrQC5siLcQuuVGdJ9"
               target="_blank"
@@ -84,10 +84,10 @@ export default function ResultHeader() {
             >
               Apply for College Info Nepal +2 Scholarship (Click Here)
             </a>
-          </p>
+          </p> */}
 
           {/* Scholarship Exam Banner */}
-          <div className="flex justify-center mt-2">
+          {/* <div className="flex justify-center mt-2">
             <a
               href="https://forms.gle/CrQC5siLcQuuVGdJ9"
               target="_blank"
@@ -103,7 +103,7 @@ export default function ResultHeader() {
                 style={{ maxWidth: '100%', height: 'auto' }}
               />
             </a>
-          </div>
+          </div> */}
 
           {/* Bottom Ads - NEB Exam & Abroad Advise */}
           <div className="flex flex-col sm:flex-row gap-3 mt-4 justify-center">
