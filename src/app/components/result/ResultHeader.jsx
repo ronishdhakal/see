@@ -32,7 +32,7 @@ export default function ResultHeader() {
           <div className="w-full mb-6 rounded-xl px-6 py-5 text-white shadow-lg border-l-4 border-blue-400" style={{ backgroundColor: '#1ca3fd' }}>
             <div>
               <p className="text-sm sm:text-base font-semibold mb-2">
-                Result not published yet. Likely to be published on Baisakh 30.
+                Result not published yet. Likely to be published on Baisakh 28/29.
               </p>
               <p className="text-sm sm:text-base">
                 Follow our{" "}
